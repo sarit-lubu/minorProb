@@ -1,0 +1,6 @@
+{"data1":
+         [{"userId":"Maria","name":"Dominguez","specialization":"ent"},
+          {"userId":"Celia","name":"Paris" ,"specialization":"medicine"},
+          {"userId":"lubu","name":"Swapna","specialization":"ortho"},
+          {"userId":"xyz", "name":"zyx" , "specialization":"yzx"}]
+ }

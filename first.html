@@ -1,0 +1,17 @@
+<div ng-controller='searchController'> {{tagLine}} </div>
+<!-- <div ng-controller='searchController'> <span ng-bind="tagLine"></span></div> -->
+<table class="table table-hover table-bordered">
+                                 <tr>
+                                    <th>Customer Id</th>
+                                    <th>Name</th>
+                                    <th>Specialization</th>
+                                 </tr>
+                                  <tr ng-repeat="customer in customerList" class="success">
+                                    <td> {{customer.userId}} </td>
+                                    <td>{{customer.name}}</td>
+                                    <td>{{customer.specialization}}</td>
+                                  </tr>
+                            </table>
+</div>
+    <div class="controls" >
+        <a  class="btn btn-success " ng-click="searchCustomer()"> Search Customer  </a>
